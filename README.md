@@ -31,4 +31,14 @@ The next step is adding style. For now, i want to style the header, paragraphs, 
 I choose a coffee background, with a darker color for the header element and the same for the footer element. 
 css complete. Now to add some behavior with Javascript
 
+### Bulding the server with Javascript
+30th December 2021. I wanted to build the web application with python, but i opted to go for javascript to keep things simple.
+The first simple server will be built using Node.
 
+### Javascript fetch appi
+My first endavor was to draw a graph of year vs temperature.
+first, i downloaded the csv file into the project folder.
+next, i used an asynchronous function to fetch the document.
+i then waited for the response, then format the data in a way that can be used by the chart.
+The function for drawing the chart is also asyncronous because we have to wait for the data to be fetched.
+Finally, the graph is rendered using chart.js

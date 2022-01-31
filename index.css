@@ -19,6 +19,7 @@ footer{
 }
 .quotes{
     font-size: 65%;
+    transform: rotate(30 deg);
 
 }
 .articles{

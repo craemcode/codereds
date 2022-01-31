@@ -1,49 +1,89 @@
-<!DOCTYPE html>
-<html>
-    <head>
-       
-        <title>Music APP by Zack</title>
-        <meta charset="UTF-8">
-        <link rel = "stylesheet" href="index.css">
-        <link rel = "script" href="index.js">
-        <meta name="description" content = "queality website">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    </head>
-    <body>
-        <header> My Header</header>
-        <section>
-            <main>
-                <article class=articles>
-                    <h2 class="headers" >
-                        Welcome to my site. <br>Enter a number
-                    </h2>
-                    <form>
-                        <label>
-                            Input word:
-                        </label>
-                        <input id = "input" 
-                                type="text"
-                                autofocus = "autofocus"
-                                placeholder="Write here"
-                                >                        
-                    </form>
-                    <p>
-                        You said <span id="output"></span>
-                    </p>
-                    
-                    <blockquote class="quotes">
-                        One small step for man, one large step for mankind.
-                    </blockquote>
-                </article>
-            </main>
-        </section>
-        <footer>
-            Designed by <i>Zacharia</i>
-        </footer>
-        </main>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
     
+    <!--Leaflet JS CSS file-->
+    <link rel="stylesheet" 
+    href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    
+    <!--Leaflet Js File-->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+
+    <title>Zacharia App</title>
+    <!--Chart js CDN Link-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+  </head>
+  <body>
+    <h1></h1>
         
-    </body>
+    <div class = "container-sm" style="border: 1px solid; margin-bottom:20px;">
+        <h2>Global Warming Warning!!</h2>
+        <canvas id="chart" style="width: 800px; height:400px;">
+
+        </canvas>
+        <p>
+            This graph was drawn using data from NASA. Follow this <a href = "https://data.giss.nasa.gov/gistemp/">link</a> to their website<br>
+            <div class="alert alert-warning" role="alert">
+                The world is surely warming!!
+            </div>
+        </p>
+    
+    </div>
+    <div class = container style="border: 1px solid">
+        <article style="margin-bottom:20px;">
+            <h2>Where is the International space station?</h2>
+            <p> Latitude: <span id="latitude" style = "font-size: larger;"></span>° </p>
+            <p>Longitude: <span id="longitude" style = "font-size: larger;"></span>° </p>
+            <p> Speed: <span id="velocity" style = "font-size: larger;"></span> Km/h </p>
+            <p>Time: <span id="visibility" style = "font-size: larger;"></span> </p>
+            <p> Altitude: <span id="altitude" style = "font-size: larger;"></span> Km </p>
+            
+            <div id="issmap" style="height: 600px; border: 1px solid">
+
+            </div>
+        </article>
+    </div>
+    
+    
+    
+    <!--<script src = "index.js"></script>-->
+    <script src = "iss.js"></script>
+    <script src = "music.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
