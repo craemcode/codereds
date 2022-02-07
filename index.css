@@ -1,0 +1,27 @@
+html{
+    background-color: chocolate;
+    font-size: 150%;
+}
+header,footer{
+    background-color: brown;
+}
+footer{
+    position: fixed;
+    top: 90%;
+    bottom: 0;
+    right: 0;
+    left:0;
+    text-align: center;
+    font-size: 80%;
+}
+.headers{
+    color :brown;
+}
+.quotes{
+    font-size: 65%;
+    transform: rotate(30 deg);
+
+}
+.articles{
+    background-color:gainsboro;
+}

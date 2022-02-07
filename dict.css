@@ -1,0 +1,13 @@
+html,body{
+    margin:0px;
+    height: 100%;
+}
+#rest-body{
+    background-color:#FF4500;
+    height:97%;
+    width: 97%;
+    margin: auto;
+    ;
+    border-bottom: solid 1px;
+    margin-bottom : 2px;
+}

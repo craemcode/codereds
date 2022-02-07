@@ -1,0 +1,9 @@
+Useful git commands
+clone: bring a repository hosted elsewhere into the local machine
+add: track your files and changes in git
+commit: save changes to files in git
+push: upload git commands to a remote repo like github
+pull: download changes from remote repository to local machine..opposite of push
+
+
+markdown is an easy way to format text
