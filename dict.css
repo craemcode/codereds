@@ -1,13 +1,146 @@
-html,body{
-    margin:0px;
-    height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap');
+body{
+    background:rgba(228, 94, 5, 0.994);
+    height: 900px;
+    width: 500px;
 }
-#rest-body{
-    background-color:#FF4500;
-    height:97%;
-    width: 97%;
-    margin: auto;
-    ;
-    border-bottom: solid 1px;
-    margin-bottom : 2px;
+.dictionary-container{
+    height: 900px;
+    width: 500px;
+    
+}
+.top-banner{
+
+    background: rgb(255, 225, 0);
+    display: block;
+    height: 7%;
+    position:relative;
+    text-align: center;
+    
+    
+}
+.copies-sold{
+   
+    position:relative;
+    color:white;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: .26em;
+    top: 70%;
+}
+.rem-container-top{
+    display: block;
+    
+    height: 40%;
+}
+.new-american{
+    color:yellow;
+    text-transform: capitalize;
+    position:absolute;
+    right: 0px;
+    width: 250px;
+    top: 85px;
+    font-size: 2em;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 15px;
+
+}
+.webster{
+    color: white;
+    display: inline-block;
+    height: 100px;
+    font-size: 9rem;
+    width:70%;
+    text-align: left;
+    left: 0;
+
+}
+.handy-college{
+    text-transform: uppercase;
+    display:inline-block;
+    width: 100%;
+    color:yellow;
+    text-align: center;
+    font-family: Anton;
+    font-size: 1.7em;
+}
+.dictionary{
+    text-transform: uppercase;
+    display:inline-block;
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size:7em;
+    font-family: Anton;
+    font-stretch: expanded;
+    padding-bottom: 0px;
+    
+
+}
+.edition{
+    color:yellow;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: .2em;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-stretch: ultra-condensed;
+    display: inline-block;
+    
+}
+.rem-container-bottom{
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    height: 30%;
+    font-size: 1.5em;
+    
+
+}
+.top-list{
+    list-style-type : none;
+    display: table;
+    
+    
+    
+}
+li.top-list{
+    border-bottom: 1px solid;
+    width: 90%;
+    text-align: center;
+    font-family: Mulish;
+    
+}
+#last{
+    border-bottom: none;
+}
+.bottom-banner{
+    background: yellow;
+    border-radius: 5em;
+    
+    
+}
+ul.first-list{
+    
+    text-align: center;
+    letter-spacing: .15em;
+    word-spacing: .3rem;
+    color:rgba(228, 94, 5, 0.994);
+    font-weight: bold;
+
+    
+    
+}
+li.first-list{
+    display: inline;
+    list-style-type: circle;
+    font-family: 'Mulish';
+    font-size: .8rem;
+    
 }
